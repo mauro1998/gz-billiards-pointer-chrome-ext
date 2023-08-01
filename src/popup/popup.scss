@@ -1,0 +1,21 @@
+@import 'dat.gui/build/dat.gui';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #000;
+}
+
+.close-button {
+  display: none;
+}
+
+#gui {
+  width: 320px !important;
+  position: relative;
+}

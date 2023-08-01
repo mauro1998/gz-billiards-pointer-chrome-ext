@@ -11,16 +11,14 @@
   },
   "action": {
     "default_title": "Gz Billiards Pointer",
-    "default_popup": "popup.html"
+    "default_popup": "popup/popup.html"
   },
   "content_scripts": [
     {
-      "js": ["pointer.js"],
-      "css": ["pointer.css"],
+      "js": ["content/pointer/pointer.js"],
+      "css": ["content/pointer/pointer.css"],
       "matches": ["https://www.gamezer.com/*/game"]
     }
   ],
-  "permissions": [
-    "storage"
-  ]
+  "permissions": ["storage"]
 }

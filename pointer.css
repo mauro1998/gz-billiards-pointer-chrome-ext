@@ -9,18 +9,19 @@
   position: fixed;
   z-index: 99999;
   border-radius: 50px;
-  background: rgba(255, 255, 255, 0.25);
-  border: 2px solid #ff0000;
+  background: rgba(0, 0, 0, 0.2);
+  border: 2px solid #000;
 }
 
 .gzb-cursor::before {
   content: '';
+  display: var(--before-display, block);
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 3px;
-  height: 3px;
-  background-color: #ff0000;
+  width: var(--before-size, 3px);
+  height: var(--before-size, 3px);
+  background-color: var(--before-background, #00ff04);
   border-radius: 50%;
 }

@@ -9,11 +9,18 @@
     "48": "icons/icon-48.png",
     "128": "icons/icon-128.png"
   },
+  "action": {
+    "default_title": "Gz Billiards Pointer",
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
       "js": ["pointer.js"],
       "css": ["pointer.css"],
       "matches": ["https://www.gamezer.com/*/game"]
     }
+  ],
+  "permissions": [
+    "storage"
   ]
 }

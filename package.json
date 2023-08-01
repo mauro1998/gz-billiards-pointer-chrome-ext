@@ -1,0 +1,24 @@
+{
+  "name": "gz-billiards-pointer-chrome-ext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "pointer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauro1998/gz-billiards-pointer-chrome-ext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauro1998/gz-billiards-pointer-chrome-ext/issues"
+  },
+  "homepage": "https://github.com/mauro1998/gz-billiards-pointer-chrome-ext#readme",
+  "dependencies": {
+    "@types/chrome": "^0.0.242",
+    "@types/dat.gui": "^0.7.10"
+  }
+}
